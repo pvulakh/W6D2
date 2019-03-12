@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.hanoi {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    list-style-type: none;
+    border: 2px solid burlywood;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+li {
+    height: 10px;
+    padding: 5px;
+    margin: 1px;
+    width: 88px;
+}
+
+li.v-1 {
+    background-color: yellow;
+    width: 30px;
+    border-radius: 50px;
+    border: 1px solid goldenrod;
+}
+
+li.v-2 {
+    background-color: blue;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid navy;
+}
+
+li.v-3 {
+    background-color: red;
+    width: 70px;
+    border-radius: 50px;
+    border: 1px solid maroon;
+}
