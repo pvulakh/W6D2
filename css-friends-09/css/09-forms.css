@@ -1,0 +1,36 @@
+/* PHASE 9: Forms */
+.post {
+    display: flex;
+}
+
+/* .prof-pic {
+    
+} */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border: .5px solid lightgray;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input > label {
+    font-weight: 600;
+}
+
+.input > textarea, input{
+    background-color: white;
+    border: .5px solid lightgray;
+    padding: 10px;
+    margin: 8px 0px;
+    border-radius: 5px;
+}
